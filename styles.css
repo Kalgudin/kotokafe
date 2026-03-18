@@ -1,0 +1,71 @@
+/* Основные стили */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.page-header h1 {
+    text-align: center;
+    color: #ffb6c1;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    color: #5c3d13;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6495ed;
+    transition: color .3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffb6c1;
+}
+
+.menu-item {
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+#contact-info address {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: #6495ed;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 10px 0;
+    color: #333;
+}
