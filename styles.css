@@ -38,9 +38,13 @@ nav a {
     color: #eeb85a;
     transition: color .3s ease-in-out;
 }
+#center_menu {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
 
 nav a:hover {
-    color: #ffb6c1;
+    color: #ffdfb6;
 }
 
 .menu-item {
@@ -53,6 +57,15 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
 }
+#center_menu{
+    width: 80%;
+}
+div img {
+    width: 60%;
+    padding: 5%;
+}
+
+
 
 #contact-info address {
     text-align: center;
