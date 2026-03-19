@@ -4,24 +4,24 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #8c7b6e;
-    color: #644926;
+    font-family: Cambria, serif;
+    background-color: #fbd0e1;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 .page-header h1 {
     text-align: center;
-    color: #f6dcb5;
-    font-size: 2em;
+    color: #ffffff;
+    font-size: 4em;
     margin-top: 50px;
 }
 
 p {
     text-align: center;
-    color: #4a3314;
-    font-size: 1em;
+    color: #1e1f22;
+    font-size: 2em;
     margin-top: 20px;
 }
 
@@ -35,7 +35,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #eeb85a;
+    color: #c85173;
     transition: color .3s ease-in-out;
 }
 #center_menu {
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffdfb6;
+    color: #fcc1d3;
 }
 
 .menu-item {
@@ -53,7 +53,7 @@ nav a:hover {
     margin: 20px;
     /*margin-bottom: 20px;*/
     padding: 20px;
-    background-color: #e6d9b9;
+    background-color: #fabcce;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
 }
@@ -61,7 +61,7 @@ nav a:hover {
     width: 80%;
 }
 div img {
-    width: 60%;
+    width: 100%;
     padding: 5%;
 }
 
@@ -74,6 +74,10 @@ div img {
     color: #2a2010;
 }
 
+#Reserve {
+
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -83,3 +87,22 @@ footer {
     padding: 10px 0;
     color: #333;
 }
+
+
+/*==========================*/
+.container {
+     display: flex;
+     justify-content: space-between; /* Расстояние между блоками */
+     gap: 20px; /* Отступы между блоками (современный способ) */
+     border-radius: 10px
+}
+
+.box {
+     flex: 1; /* Равное распределение пространства */
+     padding: 20px;
+     background-color: #fabcce;
+     border: 1px solid rgb(255, 255, 255);
+     border-radius: 10px
+
+}
+
