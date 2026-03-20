@@ -75,11 +75,32 @@ div img {
 }
 
 #Reserve {
+    display: flex;
+    justify-content: center;
+    background-color: #fabcce;
+    margin: 5%;
+    height: 800px;
+    width: 90%;
 
 }
 
-footer {
+#reserve_button {
+    display: flex;
+    justify-content: center;
     position: fixed;
+    align-items: center;
+    top: 85%;
+    left: 50%;
+    text-align: center;
+    background-color: #51c851;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    /*position: fixed;*/
     bottom: 0;
     width: 100%;
     text-align: center;
