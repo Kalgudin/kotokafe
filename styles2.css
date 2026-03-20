@@ -87,6 +87,10 @@ div img {
     background-color: #c85173;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
+.selected {
+    background-color: #f396ba;
+
+}
 
 #Reserve {
     display: flex;
@@ -131,10 +135,11 @@ footer {
 
 /*==========================*/
 
-#contact-info address {
+#address_id {
     text-align: center;
+    height: 600px;
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #2a2010;
 }
 

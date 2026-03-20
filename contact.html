@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакты | Котокафе</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Котокафе Мотя</title>
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-    <header class="page-header">
-        <h1>Наши контакты</h1>
-    </header>
+    <!-- Главная страница -->
+    <div id="main_block">
+        <header>
+            <h1>Контакты Моти</h1>
+        </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="menu.html">Меню</a></li>
-            <li><a href="contact.html" id="center_menu">Контакты</a></li>
-        </ul>
-    </nav>
+        <div class="page-header">
+            <div class="top_menu">
+                <a href="index.html"><div class="top_menu_items">Главная</div></a>
+                <a href="menu.html"><div class="top_menu_items">Меню</div></a>
+                <a href="contact.html"><div class="selected top_menu_items">Контакты</div></a>
+            </div>
+        </div>
 
-    <section id="contact-info">
-        <address>
-            Адрес: ул. Кошачья, д. 1<br>
-            Телефон: +7 (999) 123-45-67<br>
-            Почта: info@kotokafe.ru
-        </address>
-    </section>
+        <div class="container">
+            <div class="box">
+                <address id="address_id">
+                    Адрес: ул. Кошачья, д. 1<br>
+                    Телефон: +7 (999) 123-45-67<br>
+                    Почта: info@kotokafe.ru
+                </address>
+            </div>
+        </div>
+
+        <a href="index.html #Reserve">
+            <div id="reserve_button" onclick="">Забронировать</div>
+        </a>
+    </div>
 
     <footer>
-        &copy; 2025 Котокафе
+        &copy; 2026 Котокафе Мотя
     </footer>
-
     <script src="scripts.js"></script>
 </body>
 </html>
