@@ -8,9 +8,17 @@ body {
     background-attachment: fixed;
     background-color: #fbd0e1;
     background-image: url('static/img/fon1.png');
+    /*background-image: url('static/img/fon2.webp');*/
+    /*background-image: url('static/img/fon3.avif');*/
+    /*background-image: url('static/img/fon4.jpg');*/
+    /*background-image: url('static/img/fon5.jpg');*/
+    /*background-image: url('static/img/fon6.jpg');*/
     color: #1e1f22;
     margin: 0;
     padding: 0;
+}
+.shadow {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 #main_block {
     margin: 0 auto;
@@ -22,6 +30,7 @@ h1 {
     background-color: #f396ba;
     color: #1e1f22;
     font-size: 4em;
+    padding: 20px;
     margin-top: 50px;
     margin-bottom: 10px;
 }
@@ -77,7 +86,6 @@ div img {
     justify-content: center;
     align-items: center;
     background-color: #e9757d;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     height: 140px;
     width: 140px;
     border-radius: 70px;
@@ -114,7 +122,6 @@ div img {
     height: 50px;
     width: 200px;
     border-radius: 25px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     transform: translate(-50%, -50%);
 }
 #reserve_button:hover {
@@ -134,7 +141,6 @@ footer {
 }
 
 /*==========================*/
-
 #address_id {
     text-align: center;
     height: 600px;
@@ -148,7 +154,7 @@ footer {
 @media (max-width: 1024px)	{
     h1 {
         font-size: 3em;
-        margin-top: 10px;
+        margin-top: 1px;
     }
     #main_block {
         width: 800px;
@@ -165,7 +171,7 @@ footer {
     }
     h1 {
         font-size: 2em;
-        margin-top: 10px;
+        margin-top: 1px;
     }
     .top_menu_items {
         height: 100px;
