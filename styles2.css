@@ -110,12 +110,13 @@ div img {
     height: 50px;
     width: 200px;
     border-radius: 25px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     transform: translate(-50%, -50%);
 }
 #reserve_button:hover {
     color: #fcc1d3;
     background-color: #c85173;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -160,6 +161,11 @@ footer {
     h1 {
         font-size: 2em;
         margin-top: 10px;
+    }
+    .top_menu_items {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
     }
     #main_block {
         width: 100%;
